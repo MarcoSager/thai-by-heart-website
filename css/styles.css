@@ -792,26 +792,21 @@ button { cursor: pointer; border: none; background: none; }
     transform: translate(-50%, -50%) scale(1.12);
 }
 
-.content-card--fb { flex-shrink: 0; }
-.content-card-thumb--fb {
-    height: auto;
-    min-height: 192px;
-    overflow: hidden;
-    position: relative;
-    background: #0d1525;
-}
-.content-card-thumb--fb .content-card-cat {
-    position: absolute;
-    top: 12px; left: 12px;
-    z-index: 3;
-}
-.content-card-thumb--fb .fb-video,
-.content-card-thumb--fb .fb-video span,
-.content-card-thumb--fb .fb-video iframe {
-    width: 268px !important;
-    min-width: 268px;
-}
 .card-meta--hot { color: var(--accent); font-weight: 600; }
+
+.thumb-views {
+    position: absolute;
+    bottom: 12px; right: 12px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: var(--white);
+    background: rgba(7,12,21,0.75);
+    padding: 4px 9px;
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+    z-index: 2;
+}
 
 .content-card-info { padding: 18px 18px 20px; }
 .content-card-info h3 {
