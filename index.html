@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thai By Heart — A cinematic creator brand bridging cultures through authentic storytelling, mindset, and life in Thailand.">
+    <title>Thai By Heart — Cinematic Creator Brand</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- GRAIN TEXTURE OVERLAY -->
+<div class="grain-overlay" aria-hidden="true"></div>
+
+<!-- ===================== NAVIGATION ===================== -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="#home" class="nav-logo">
+            <span class="logo-text">Thai By Heart</span>
+            <span class="logo-sub">Cinematic Creator</span>
+        </a>
+
+        <div class="nav-menu" id="navMenu">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#story" class="nav-link">Story</a>
+            <a href="#videos" class="nav-link">Videos</a>
+            <a href="#philosophy" class="nav-link">Philosophy</a>
+            <a href="#community" class="nav-link">Community</a>
+            <a href="#shop" class="nav-link">Shop</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <div class="nav-social">
+            <a href="https://www.tiktok.com/@thaibyheart" target="_blank" rel="noopener" class="social-icon" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.facebook.com/thaibyheart" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/thaibyheart" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@thaibyheart" target="_blank" rel="noopener" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="home">
+    <div class="hero-bg" id="heroBg">
+        <div class="hero-bg-base"></div>
+        <div class="hero-bg-radials"></div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-left hero-animate" data-delay="200">
+            <div class="hero-eyebrow">
+                <span class="eyebrow-line"></span>
+                <span class="eyebrow-text">Cinematic Creator · Thailand</span>
+            </div>
+
+            <h1 class="hero-headline">
+                Not born in<br>
+                <em>Thailand.</em><br>
+                <span class="headline-soft">Still became</span><br>
+                Thai by heart.
+            </h1>
+
+            <p class="hero-subtext">
+                A bridge between worlds — mindset, culture, stories, and modern life through the eyes of someone who found a second home in Thailand.
+            </p>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-value">
+                        <span class="hero-count" data-target="155">0</span><span class="stat-sfx">K+</span>
+                    </div>
+                    <span class="stat-label">Facebook</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-value">
+                        <span class="hero-count" data-target="53">0</span><span class="stat-sfx">K+</span>
+                    </div>
+                    <span class="stat-label">TikTok</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-value">
+                        <span class="hero-count" data-target="1">0</span><span class="stat-sfx">M+</span>
+                    </div>
+                    <span class="stat-label">Video Views</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-value">
+                        <span class="hero-count" data-target="40">0</span><span class="stat-sfx">+</span>
+                    </div>
+                    <span class="stat-label">Countries</span>
+                </div>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#videos" class="btn-primary">
+                    <i class="fas fa-play"></i>
+                    Watch Videos
+                </a>
+                <a href="#story" class="btn-secondary">
+                    Join the Journey
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-right hero-animate" data-delay="500">
+            <div class="portrait-frame">
+                <div class="portrait-glow" aria-hidden="true"></div>
+                <div class="portrait-inner">
+                    <!-- Replace assets/portrait.jpg with your actual photo -->
+                    <img src="assets/portrait.jpg"
+                         alt="Thai By Heart — Creator Portrait"
+                         class="portrait-img"
+                         onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                    <div class="portrait-placeholder" aria-hidden="true">
+                        <i class="fas fa-user"></i>
+                        <span>Add Your Portrait</span>
+                        <small>assets/portrait.jpg</small>
+                    </div>
+                </div>
+                <div class="portrait-badge">
+                    <span class="badge-flag" aria-hidden="true">🇹🇭</span>
+                    <span class="badge-text">Thai by Heart</span>
+                </div>
+                <div class="portrait-reel" aria-hidden="true">
+                    <span></span><span class="reel-active"></span><span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-scroll-hint" aria-hidden="true">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+    </div>
+</section>
+
+<!-- ===================== SOCIAL PROOF ===================== -->
+<section class="social-proof" id="stats">
+    <div class="section-container">
+        <div class="stats-grid">
+
+            <div class="stat-card glass-card reveal-up" data-delay="0">
+                <div class="stat-card-icon fb-icon"><i class="fab fa-facebook-f"></i></div>
+                <div class="stat-card-num"><span class="count-num" data-target="155">0</span>K+</div>
+                <div class="stat-card-label">Facebook Community</div>
+                <a href="https://www.facebook.com/thaibyheart" target="_blank" rel="noopener" class="stat-card-link">Follow <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="stat-card glass-card reveal-up" data-delay="100">
+                <div class="stat-card-icon tt-icon"><i class="fab fa-tiktok"></i></div>
+                <div class="stat-card-num"><span class="count-num" data-target="53">0</span>K+</div>
+                <div class="stat-card-label">TikTok Community</div>
+                <a href="https://www.tiktok.com/@thaibyheart" target="_blank" rel="noopener" class="stat-card-link">Follow <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="stat-card glass-card reveal-up" data-delay="200">
+                <div class="stat-card-icon ig-icon"><i class="fab fa-instagram"></i></div>
+                <div class="stat-card-num">Growing</div>
+                <div class="stat-card-label">Instagram Reach</div>
+                <a href="https://www.instagram.com/thaibyheart" target="_blank" rel="noopener" class="stat-card-link">Follow <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="stat-card glass-card reveal-up" data-delay="300">
+                <div class="stat-card-icon yt-icon"><i class="fab fa-youtube"></i></div>
+                <div class="stat-card-num"><span class="count-num" data-target="1">0</span>M+</div>
+                <div class="stat-card-label">YouTube Views</div>
+                <a href="https://www.youtube.com/@thaibyheart" target="_blank" rel="noopener" class="stat-card-link">Watch <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===================== FEATURED CONTENT ===================== -->
+<section class="featured-content" id="videos">
+    <div class="section-container">
+        <div class="section-header reveal-up">
+            <span class="section-eyebrow">Featured Content</span>
+            <h2 class="section-title">Stories That <em>Move</em> You</h2>
+            <p class="section-subtitle">Explore the world of Thai By Heart through cinematic video stories, cultural insights, and mindset journeys.</p>
+        </div>
+
+        <div class="content-scroll-wrapper">
+            <div class="content-cards-row">
+
+                <div class="content-card content-card--fb reveal-up" data-delay="0">
+                    <div class="content-card-thumb content-card-thumb--fb">
+                        <div class="content-card-cat">Answering Comments</div>
+                        <div class="fb-video"
+                             data-href="https://www.facebook.com/share/v/1JMbFygGJZ/"
+                             data-width="268"
+                             data-show-text="false"
+                             data-allowfullscreen="true">
+                        </div>
+                    </div>
+                    <div class="content-card-info">
+                        <h3>Episode 7 — Answering Your Comments</h3>
+                        <span class="card-meta card-meta--hot">🔥 500K+ views · Facebook</span>
+                    </div>
+                </div>
+
+                <div class="content-card content-card--fb reveal-up" data-delay="80">
+                    <div class="content-card-thumb content-card-thumb--fb">
+                        <div class="content-card-cat">Answering Comments</div>
+                        <div class="fb-video"
+                             data-href="https://www.facebook.com/share/r/18hivihQUt/"
+                             data-width="268"
+                             data-show-text="false"
+                             data-allowfullscreen="true">
+                        </div>
+                    </div>
+                    <div class="content-card-info">
+                        <h3>Answering Your Comments — Vol. 2</h3>
+                        <span class="card-meta card-meta--hot">🔥 900K+ views · Facebook</span>
+                    </div>
+                </div>
+
+                <div class="content-card content-card--fb reveal-up" data-delay="160">
+                    <div class="content-card-thumb content-card-thumb--fb">
+                        <div class="content-card-cat">Answering Comments</div>
+                        <div class="fb-video"
+                             data-href="https://www.facebook.com/share/r/1BYiwywpnp/"
+                             data-width="268"
+                             data-show-text="false"
+                             data-allowfullscreen="true">
+                        </div>
+                    </div>
+                    <div class="content-card-info">
+                        <h3>Answering Your Comments — Vol. 3</h3>
+                        <span class="card-meta card-meta--hot">🔥 1M+ views · Facebook</span>
+                    </div>
+                </div>
+
+                <div class="content-card content-card--fb reveal-up" data-delay="240">
+                    <div class="content-card-thumb content-card-thumb--fb">
+                        <div class="content-card-cat">Answering Comments</div>
+                        <div class="fb-video"
+                             data-href="https://www.facebook.com/share/r/18LEWum71Q/"
+                             data-width="268"
+                             data-show-text="false"
+                             data-allowfullscreen="true">
+                        </div>
+                    </div>
+                    <div class="content-card-info">
+                        <h3>Answering Your Comments — Vol. 4</h3>
+                        <span class="card-meta card-meta--hot">🔥 2M+ views · Facebook</span>
+                    </div>
+                </div>
+
+                <div class="content-card content-card--fb reveal-up" data-delay="320">
+                    <div class="content-card-thumb content-card-thumb--fb">
+                        <div class="content-card-cat">Mica & Marco</div>
+                        <div class="fb-video"
+                             data-href="https://www.facebook.com/share/r/18oznXQZK7/"
+                             data-width="268"
+                             data-show-text="false"
+                             data-allowfullscreen="true">
+                        </div>
+                    </div>
+                    <div class="content-card-info">
+                        <h3>Mica & Marco — Thai By Heart</h3>
+                        <span class="card-meta card-meta--hot">🔥 474K+ views · Facebook</span>
+                    </div>
+                </div>
+
+                <div class="content-card content-card--fb reveal-up" data-delay="400">
+                    <div class="content-card-thumb content-card-thumb--fb">
+                        <div class="content-card-cat">Answering Comments</div>
+                        <div class="fb-video"
+                             data-href="https://www.facebook.com/share/r/18aNDhiZQs/"
+                             data-width="268"
+                             data-show-text="false"
+                             data-allowfullscreen="true">
+                        </div>
+                    </div>
+                    <div class="content-card-info">
+                        <h3>Answering Your Comments — Vol. 5</h3>
+                        <span class="card-meta card-meta--hot">🔥 700K+ views · Facebook</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== WHY EXISTS ===================== -->
+<section class="why-section" id="philosophy">
+    <div class="why-bg-word" aria-hidden="true">HEART</div>
+    <div class="section-container">
+        <div class="why-content reveal-up">
+            <span class="section-eyebrow">The Purpose</span>
+            <h2 class="why-headline">
+                More than language.<br>
+                <em>More than culture.</em>
+            </h2>
+            <p class="why-body">
+                Thai By Heart is about identity, connection, perspective, and growth. A journey between cultures — sharing the wisdom, mindset, and emotional depth found through life in Thailand. It's not about being foreign. It's about becoming.
+            </p>
+            <div class="why-pillars">
+                <div class="pillar"><span class="pillar-dot"></span><span class="pillar-text">Identity</span></div>
+                <div class="pillar"><span class="pillar-dot"></span><span class="pillar-text">Connection</span></div>
+                <div class="pillar"><span class="pillar-dot"></span><span class="pillar-text">Perspective</span></div>
+                <div class="pillar"><span class="pillar-dot"></span><span class="pillar-text">Growth</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== MY STORY TIMELINE ===================== -->
+<section class="story-section" id="story">
+    <div class="section-container">
+        <div class="section-header reveal-up">
+            <span class="section-eyebrow">The Journey</span>
+            <h2 class="section-title">A <em>Life</em> Written in Two Languages</h2>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item reveal-up" data-delay="0">
+                <div class="timeline-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-connector"></div>
+                </div>
+                <div class="timeline-card glass-card">
+                    <span class="timeline-chapter">Chapter I</span>
+                    <h3>Born in Germany</h3>
+                    <p>A European upbringing with a restless soul searching for something deeper — purpose, meaning, connection beyond borders.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal-up" data-delay="120">
+                <div class="timeline-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-connector"></div>
+                </div>
+                <div class="timeline-card glass-card">
+                    <span class="timeline-chapter">Chapter II</span>
+                    <h3>First Steps in Thailand</h3>
+                    <p>A journey that began as travel but transformed into something far more profound — a cultural awakening that changed everything.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal-up" data-delay="240">
+                <div class="timeline-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-connector"></div>
+                </div>
+                <div class="timeline-card glass-card">
+                    <span class="timeline-chapter">Chapter III</span>
+                    <h3>Learning Thai Culture Deeply</h3>
+                    <p>Going beyond the surface. Learning the language, the customs, the philosophy, the human heart that beats underneath the smiles.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal-up" data-delay="360">
+                <div class="timeline-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-connector"></div>
+                </div>
+                <div class="timeline-card glass-card">
+                    <span class="timeline-chapter">Chapter IV</span>
+                    <h3>Building a Global Community</h3>
+                    <p>Stories resonated across borders. 155K+ Facebook followers, 53K+ on TikTok — a movement built on authenticity and emotional truth.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal-up" data-delay="480">
+                <div class="timeline-left">
+                    <div class="timeline-dot timeline-dot--active"></div>
+                </div>
+                <div class="timeline-card glass-card timeline-card--active">
+                    <span class="timeline-chapter">Now</span>
+                    <h3>Sharing Thailand with the World</h3>
+                    <p>Every video, every story, every word — an invitation for the world to feel what it means to be Thai by heart.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===================== COMMUNITY LOVE ===================== -->
+<section class="community-section" id="community">
+    <div class="section-container">
+        <div class="section-header reveal-up">
+            <span class="section-eyebrow">Community Love</span>
+            <h2 class="section-title">Words From the <em>Journey</em></h2>
+            <p class="section-subtitle">Real voices from a global community connected by heart.</p>
+        </div>
+
+        <!-- LIVE FACEBOOK PAGE FEED -->
+        <div class="fb-feed-wrapper reveal-up" data-delay="0">
+            <div class="fb-feed-label">
+                <i class="fab fa-facebook-f"></i>
+                <span>Live from Facebook · <a href="https://www.facebook.com/thaibyheart" target="_blank" rel="noopener">@thaibyheart</a></span>
+            </div>
+            <div class="fb-feed-frame">
+                <div id="fb-root"></div>
+                <div class="fb-page"
+                     data-href="https://www.facebook.com/thaibyheart"
+                     data-tabs="timeline"
+                     data-width="900"
+                     data-height="520"
+                     data-small-header="true"
+                     data-adapt-container-width="true"
+                     data-hide-cover="false"
+                     data-show-facepile="false"
+                     data-colorscheme="dark">
+                </div>
+            </div>
+        </div>
+
+        <div class="community-divider reveal-up" data-delay="100">
+            <span>Highlighted Messages</span>
+        </div>
+
+        <div class="testimonials-grid">
+
+            <div class="testimonial-card glass-card reveal-up" data-delay="0">
+                <div class="t-platform fb-badge"><i class="fab fa-facebook-f"></i></div>
+                <p class="t-text">"Your videos made me fall in love with Thailand before I ever visited. When I finally got there, it felt like coming home."</p>
+                <div class="t-author">
+                    <div class="t-avatar" style="background: linear-gradient(135deg, #b89a7a, #914d39)">M</div>
+                    <div class="t-info">
+                        <span class="t-name">Maria K.</span>
+                        <span class="t-loc">Germany</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card glass-card reveal-up" data-delay="100">
+                <div class="t-platform tt-badge"><i class="fab fa-tiktok"></i></div>
+                <p class="t-text">"I've watched every single video. This isn't just content — it's a whole philosophy. Changed how I see the world."</p>
+                <div class="t-author">
+                    <div class="t-avatar" style="background: linear-gradient(135deg, #636d44, #1a2740)">J</div>
+                    <div class="t-info">
+                        <span class="t-name">James T.</span>
+                        <span class="t-loc">Australia</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card glass-card reveal-up" data-delay="200">
+                <div class="t-platform ig-badge"><i class="fab fa-instagram"></i></div>
+                <p class="t-text">"As a Thai person, watching someone truly understand our culture and share it with such respect and depth is incredibly moving."</p>
+                <div class="t-author">
+                    <div class="t-avatar" style="background: linear-gradient(135deg, #914d39, #b89a7a)">S</div>
+                    <div class="t-info">
+                        <span class="t-name">Siriporn P.</span>
+                        <span class="t-loc">Thailand</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card glass-card reveal-up" data-delay="300">
+                <div class="t-platform fb-badge"><i class="fab fa-facebook-f"></i></div>
+                <p class="t-text">"Found this channel during a difficult time. The mindset videos helped me completely rethink how I approach life. Thank you."</p>
+                <div class="t-author">
+                    <div class="t-avatar" style="background: linear-gradient(135deg, #555557, #636d44)">A</div>
+                    <div class="t-info">
+                        <span class="t-name">Alex R.</span>
+                        <span class="t-loc">USA</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card glass-card reveal-up" data-delay="400">
+                <div class="t-platform tt-badge"><i class="fab fa-tiktok"></i></div>
+                <p class="t-text">"What you do is more than entertainment. You're building a bridge between cultures that needed to be built. Keep going."</p>
+                <div class="t-author">
+                    <div class="t-avatar" style="background: linear-gradient(135deg, #b89a7a, #636d44)">L</div>
+                    <div class="t-info">
+                        <span class="t-name">Lukas H.</span>
+                        <span class="t-loc">Switzerland</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card glass-card reveal-up" data-delay="500">
+                <div class="t-platform yt-badge"><i class="fab fa-youtube"></i></div>
+                <p class="t-text">"Your language journey inspired me to start learning Thai. Six months later I'm having real conversations. This channel changed my life."</p>
+                <div class="t-author">
+                    <div class="t-avatar" style="background: linear-gradient(135deg, #914d39, #555557)">N</div>
+                    <div class="t-info">
+                        <span class="t-name">Nina B.</span>
+                        <span class="t-loc">Netherlands</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===================== CONTENT CATEGORIES ===================== -->
+<section class="categories-section" id="categories">
+    <div class="section-container">
+        <div class="section-header reveal-up">
+            <span class="section-eyebrow">Explore</span>
+            <h2 class="section-title">The World of <em>Thai By Heart</em></h2>
+        </div>
+
+        <div class="categories-grid">
+
+            <div class="cat-block reveal-up" data-delay="0">
+                <div class="cat-bg" style="background: linear-gradient(135deg, #111a0e, #1e2e1255)"></div>
+                <div class="cat-content">
+                    <span class="cat-icon" aria-hidden="true">🧠</span>
+                    <h3>Thai Mindset</h3>
+                    <p>The philosophy behind the smiles</p>
+                    <span class="cat-count">32 videos</span>
+                </div>
+            </div>
+
+            <div class="cat-block reveal-up" data-delay="80">
+                <div class="cat-bg" style="background: linear-gradient(135deg, #1e1408, #3a280e55)"></div>
+                <div class="cat-content">
+                    <span class="cat-icon" aria-hidden="true">⚡</span>
+                    <h3>Motivation</h3>
+                    <p>Fuel for the journey forward</p>
+                    <span class="cat-count">28 videos</span>
+                </div>
+            </div>
+
+            <div class="cat-block reveal-up" data-delay="160">
+                <div class="cat-bg" style="background: linear-gradient(135deg, #1e0e08, #3a150b55)"></div>
+                <div class="cat-content">
+                    <span class="cat-icon" aria-hidden="true">🏯</span>
+                    <h3>Thai Culture</h3>
+                    <p>Temples, traditions, truths</p>
+                    <span class="cat-count">45 videos</span>
+                </div>
+            </div>
+
+            <div class="cat-block reveal-up" data-delay="240">
+                <div class="cat-bg" style="background: linear-gradient(135deg, #141414, #28282822)"></div>
+                <div class="cat-content">
+                    <span class="cat-icon" aria-hidden="true">🌿</span>
+                    <h3>Life Lessons</h3>
+                    <p>What living abroad teaches you</p>
+                    <span class="cat-count">19 videos</span>
+                </div>
+            </div>
+
+            <div class="cat-block reveal-up" data-delay="320">
+                <div class="cat-bg" style="background: linear-gradient(135deg, #0c1420, #1a2a4055)"></div>
+                <div class="cat-content">
+                    <span class="cat-icon" aria-hidden="true">🗣️</span>
+                    <h3>Language</h3>
+                    <p>Thai language, unlocked</p>
+                    <span class="cat-count">24 videos</span>
+                </div>
+            </div>
+
+            <div class="cat-block reveal-up" data-delay="400">
+                <div class="cat-bg" style="background: linear-gradient(135deg, #0e1810, #1e3a2055)"></div>
+                <div class="cat-content">
+                    <span class="cat-icon" aria-hidden="true">📖</span>
+                    <h3>Stories</h3>
+                    <p>Real moments, real emotions</p>
+                    <span class="cat-count">37 videos</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===================== FINAL CTA ===================== -->
+<section class="cta-section" id="contact">
+    <div class="cta-bg" aria-hidden="true">
+        <div class="cta-overlay"></div>
+        <div class="cta-glow"></div>
+    </div>
+    <div class="section-container">
+        <div class="cta-content reveal-up">
+            <span class="section-eyebrow">Begin Your Journey</span>
+            <h2 class="cta-headline">
+                You don't need to be born Thai<br>
+                to connect with<br>
+                <em>Thailand by heart.</em>
+            </h2>
+            <p class="cta-subtext">
+                Join a global community of people who found something profound in Thai culture, wisdom, and the stories that connect us all.
+            </p>
+            <div class="cta-buttons">
+                <a href="https://www.facebook.com/thaibyheart" target="_blank" rel="noopener" class="btn-primary btn-lg">
+                    <i class="fab fa-facebook-f"></i>
+                    Follow the Journey
+                </a>
+                <a href="https://www.tiktok.com/@thaibyheart" target="_blank" rel="noopener" class="btn-ghost btn-lg">
+                    <i class="fab fa-tiktok"></i>
+                    Watch on TikTok
+                </a>
+            </div>
+            <div class="cta-social-row">
+                <a href="https://www.facebook.com/thaibyheart" target="_blank" rel="noopener" class="cta-soc-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.tiktok.com/@thaibyheart" target="_blank" rel="noopener" class="cta-soc-link" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/thaibyheart" target="_blank" rel="noopener" class="cta-soc-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@thaibyheart" target="_blank" rel="noopener" class="cta-soc-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer" id="shop">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <img src="assets/logo.png" alt="Thai By Heart" class="footer-logo-img">
+            <p class="footer-tag">A bridge between worlds. A story without borders.</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+            <a href="#home">Home</a>
+            <a href="#story">Story</a>
+            <a href="#videos">Videos</a>
+            <a href="#philosophy">Philosophy</a>
+            <a href="#community">Community</a>
+        </nav>
+        <div class="footer-social">
+            <a href="https://www.tiktok.com/@thaibyheart" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.facebook.com/thaibyheart" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/thaibyheart" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@thaibyheart" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2025 Thai By Heart. All rights reserved.</span>
+            <span aria-hidden="true">🇹🇭</span>
+        </div>
+    </div>
+</footer>
+
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({ xfbml: true, version: 'v21.0' });
+    };
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<script src="js/main.js"></script>
+</body>
+</html>
